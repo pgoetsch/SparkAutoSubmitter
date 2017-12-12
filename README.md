@@ -1,5 +1,7 @@
 # SparkAutoSubmitter
 
+SparkAutoSubmitter is a job submitter for Apache Spark, which uses (1) heuristics based upon historical data and (2) realtime resource availability to select the optimal runtime configuration for any given job.
+
 ## Usage
 ```
 bash spark-submit-wrapper.sh <job-type> <input-data> <cluster-efficiency>
