@@ -11,8 +11,17 @@ Where:
 
 ## Installation
 
+1. Clone the repository in the same environment that has the prerequisite software listed below.
+2. Update spark-environment.conf with the values for your system
+
+### Prerequisites / Supported Runtime
+Software | Version
+------------ | ---------------
+Apache Spark | 2.1 (with hadoop 2.7)
+Hadoop | 2.8.1
+
 ## Open Ends
 
-* [] read and write results to hdfs path
-* [] make more things configurable
-* [] figure out how to support multiple job types (and also those not in hibench)
+* [ ] read and write results to hdfs path
+* [ ] make more things configurable
+* [ ] figure out how to support multiple job types (and also those not in hibench)
